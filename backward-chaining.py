@@ -89,9 +89,10 @@ def is_city():
             return False
     return False
 
+
 def car_type():
     car_type = ask_question("What car type do you want to check (SUV, Crossover, Estate, MPV, Saloon, Hatchback, City)? ", 
-                             valid_answers=["SUV", "Crossover", "Estate", "MPV", "Saloon", "Hatchback", "City"])
+                             valid_answers=["SUV", "Crossover", "Estate", "MPV", "Saloon", "Hatchback", "City"]) #valid answers line made with ChatGPT
 
     if car_type == "SUV":
         if is_suv():
