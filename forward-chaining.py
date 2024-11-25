@@ -1,8 +1,9 @@
 def car_type():
-  
+              # Ask for the number of doors
     doors = int(input("How many doors does your car have? "))
+    #check if doors is greater than 3
     if doors > 3:
-        
+        # Ask for ride height
         ride_height = int(input("What is the ride height of your car in millimeters? "))
         
         # Check if the ride height is greater than 190 mm
@@ -45,3 +46,6 @@ def car_type():
 
 # Print car type
 print("Your car is a " + car_type())
+
+
+#ChatGPT helped to fix errors in this code as i created it 
